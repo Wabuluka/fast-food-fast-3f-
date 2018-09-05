@@ -1,0 +1,26 @@
+body{
+    min-height: 100%;
+    position: relative;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background: rgb(89, 112, 141);
+    line-height: 70px;
+}
+nav ul{
+    list-style: none;
+    float: right;    
+}
+nav ul li{
+    display: inline;
+    padding-right: 10px;
+    color: bisque;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    height: 80px;
+    background: rgb(89, 112, 141);
+    position: absolute;
+}
