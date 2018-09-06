@@ -84,6 +84,12 @@ body{
     padding: 5px;
     min-height: 100px;
 }
+.breakfast{
+    background: url('img/breakfast.jpeg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #categories .div2{
     width: 330px;
     float: left;
@@ -92,6 +98,12 @@ body{
     padding: 5px;
     min-height: 100px;
 }
+.lunch{
+    background: url('img/lunch.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #categories .div3{
     width: 330px;
     float: left;
@@ -99,6 +111,12 @@ body{
     margin-right:10px;
     padding: 5px;
     min-height: 100px;
+}
+.dinner{
+    background: url('img/dinner.jpeg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #ready{
     margin-top: 30px;
@@ -258,6 +276,7 @@ admin page
     height: 80px;
     margin-top: -40px;
     float: right;
+    width: 100px;
     background: rgba(240, 130, 5, 0.247);
 }
 /*--------------------------------------------------------------------------------------------------------*/
@@ -286,4 +305,3 @@ admin page
 #contact{
     text-align: center;
 }
-
