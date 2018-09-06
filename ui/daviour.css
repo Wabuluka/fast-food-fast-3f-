@@ -3,24 +3,33 @@ html, body{
     margin: 0;
 }
 body{
-    min-height: 100%;
+    background: #9e957ba6;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .container{
     width: 80%;
     margin: auto;
 }
-.cont-1{
-    margin-top: 20px; 
-    width: 60%;
-    float: left;
+#indexHome{
     height: 400px;
-    position: relative;
+    margin-top: -5px;
     background: url('img/food-horoscopes-2018.jpg');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: -20px;
+}
+.cont-1{
+    margin-top: 0px; 
+    width: 60%;
+    float: left;
+    position: relative;
 
     padding: 10px;
+}
+.cont-1 .content-cont-1{
+    margin-top: 100px;
+    text-align: right;
 }
 .cont-2{
     width: 35%;
@@ -29,9 +38,13 @@ body{
     margin-top: -30px;
     padding-left: 5px;
 }
+/*---------------------forms-----------------*/
 .form-sp{
     padding: 10px;
     margin-top: 10px;
+    width: 100%;
+    border:0;
+    background: #9e957ba6;
 }
 .cont-sidebar{
     background: #222;
@@ -54,3 +67,223 @@ body{
     position: relative;
     float: left;
 }
+/*------------------------------------------homepage------------*/
+#categories{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 300px;
+}
+#categories h4{
+    text-align: center;
+}
+#categories .div1{
+    width: 330px;
+    float: left;
+    background-color: rgb(48, 45, 45);
+    margin-right:10px;
+    padding: 5px;
+    min-height: 100px;
+}
+#categories .div2{
+    width: 330px;
+    float: left;
+    background-color: rgb(48, 45, 45);
+    margin-right:10px;
+    padding: 5px;
+    min-height: 100px;
+}
+#categories .div3{
+    width: 330px;
+    float: left;
+    background-color: rgb(48, 45, 45);
+    margin-right:10px;
+    padding: 5px;
+    min-height: 100px;
+}
+#ready{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 300px;
+}
+#ready h4{
+    text-align: center;
+}
+#ready .div1{
+    width: 240px;
+    float: left;
+    background-color: rgb(48, 45, 45);
+    margin-right:10px;
+    padding: 5px;
+    min-height: 100px;
+}
+#ready .div2{
+    width: 240px;
+    float: left;
+    background-color: rgb(48, 45, 45);
+    margin-right:10px;
+    padding: 5px;
+    min-height: 100px;
+}
+#ready .div3{
+    width: 240px;
+    float: left;
+    background-color: rgb(48, 45, 45);
+    margin-right:10px;
+    padding: 5px;
+    min-height: 100px;
+}
+#ready .div4{
+    width: 240px;
+    float: left;
+    background-color: rgb(48, 45, 45);
+    margin-right:10px;
+    padding: 5px;
+    min-height: 100px;
+}
+/*
+admin page
+*/
+.admin{
+    margin-top: 10px;
+}
+/*------------------------sign in-------------------*/
+#signin{
+    height: 80%;
+    margin-bottom: -20px;
+    background: url('img/food-and-drink.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #222;
+}
+#signin .signin-form{
+    height: 300px;
+    width: 50%;
+    margin: auto;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+#div1 {
+    width: 190px;
+    float: left;
+    background-color: rgb(48, 45, 45);
+    margin-right:10px;
+    padding: 5px;
+    min-height: 400px;
+}
+#div1 h3{
+    color: #ffffff;
+    text-align: center; 
+}
+#div1 .profile h4{
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center; 
+}
+#div1 .profile button{
+    background: red;
+    font-size: 14px;
+    margin-left: auto;
+	margin-right: auto;
+    display: block;
+}
+#div1 img{
+    width: 100px;
+    margin-left: auto;
+	margin-right: auto;
+    display: block;
+    border-radius: 50%;
+}
+/*--------------------------------------------------------------------------------------------------------*/
+#div2 {
+    width: 500px;
+    float: left;
+    background-color:rgb(127, 157, 182);
+    margin-right:10px;
+    padding: 5px;
+}
+#div2 .activitybanner{
+    background: rgb(117, 84, 22);
+    height: 40px;
+    line-height: 40px;
+    color: #222;
+    text-align: center; 
+    margin-top: -22px;
+
+}
+.activiyItemAdd{
+    height: 30px;
+    margin: 2px;
+    border: 1px solid #222;
+    text-align: center;
+    padding-bottom: 10px; 
+}
+.activiyItem{
+    height: 80px;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid #222;
+}
+.activiyItem img{
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+}
+.activiyItem .activityItemContent{
+    margin-top: -90px;
+    margin-left: 100px;
+}
+.activiyItem .activityItemContent p{
+    margin-top: -20px;
+}
+.activiyItem .time{
+    
+}
+.itemAction{
+    margin-top: -20px;
+    float: right;
+}
+.itemAction button{
+    height: 80px;
+    margin-top: -52px;
+    float: right;
+    background: rgba(240, 130, 5, 0.247);
+}
+/*-----------------------------useraccount----------------------------------*/
+.itemActionUser{
+    margin-top: -20px;
+    float: right;
+}
+.itemActionUser button{
+    height: 80px;
+    margin-top: -40px;
+    float: right;
+    background: rgba(240, 130, 5, 0.247);
+}
+/*--------------------------------------------------------------------------------------------------------*/
+#div3 {
+    width: 300px;
+    float: left;
+    background-color:green;
+    margin-right:10px;
+    padding: 5px;
+    margin-top: -22px;
+}
+#div3 .activitybanner{
+    background: rgb(117, 84, 22);
+    height: 40px;
+    line-height: 40px;
+    color: #222;
+    text-align: center; 
+    margin-top: -22px;
+
+}
+/*------------------------aboutus sction*/
+#aboutus{
+    text-align: center;
+}
+/*-------------------------contact section*/
+#contact{
+    text-align: center;
+}
+
