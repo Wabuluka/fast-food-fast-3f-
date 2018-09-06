@@ -1,0 +1,54 @@
+body{
+    min-height: 100%;
+    position: relative;
+    min-height: 100px;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background: rgb(89, 112, 141);
+    line-height: 70px;
+}
+nav ul{
+    list-style: none;
+    float: right;    
+}
+nav ul li{
+    display: inline;
+    padding-right: 5px;
+    color: bisque;
+}
+nav ul li a{
+    display: inline;
+    padding-right: 10px;
+    color: bisque;
+    text-decoration: none;
+}
+#main{
+    margin-top: 0;
+}
+.activity-search{
+    width: 100%;
+    background: #222;
+}
+.activity-form{
+    width: 80%;
+    border: 0px;
+    height: 40px;
+    padding: 10px;
+    float: left;
+}
+.activity-search-buton{
+    width: 20%;
+    border: 0px;
+    height: 40px;
+
+}
+footer{
+    margin-top: 10px;
+    clear: both;
+    width: 100%;
+    bottom: 0;
+    height: 80px;
+    background: rgb(89, 112, 141);
+}
