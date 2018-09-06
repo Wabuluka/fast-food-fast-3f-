@@ -4,7 +4,6 @@ html, body{
 }
 body{
     background: #9e957ba6;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .container{
     width: 80%;
@@ -20,16 +19,12 @@ body{
     margin-bottom: -20px;
 }
 .cont-1{
-    margin-top: 0px; 
+    margin-top: 20px; 
     width: 60%;
     float: left;
     position: relative;
 
     padding: 10px;
-}
-.cont-1 .content-cont-1{
-    margin-top: 100px;
-    text-align: right;
 }
 .cont-2{
     width: 35%;
@@ -38,13 +33,9 @@ body{
     margin-top: -30px;
     padding-left: 5px;
 }
-/*---------------------forms-----------------*/
 .form-sp{
     padding: 10px;
     margin-top: 10px;
-    width: 100%;
-    border:0;
-    background: #9e957ba6;
 }
 .cont-sidebar{
     background: #222;
@@ -70,75 +61,9 @@ body{
 /*------------------------------------------homepage------------*/
 #categories{
     margin-top: 30px;
-    margin-bottom: 10px;
-    height: 300px;
 }
 #categories h4{
     text-align: center;
-}
-#categories .div1{
-    width: 330px;
-    float: left;
-    background-color: rgb(48, 45, 45);
-    margin-right:10px;
-    padding: 5px;
-    min-height: 100px;
-}
-#categories .div2{
-    width: 330px;
-    float: left;
-    background-color: rgb(48, 45, 45);
-    margin-right:10px;
-    padding: 5px;
-    min-height: 100px;
-}
-#categories .div3{
-    width: 330px;
-    float: left;
-    background-color: rgb(48, 45, 45);
-    margin-right:10px;
-    padding: 5px;
-    min-height: 100px;
-}
-#ready{
-    margin-top: 30px;
-    margin-bottom: 10px;
-    height: 300px;
-}
-#ready h4{
-    text-align: center;
-}
-#ready .div1{
-    width: 240px;
-    float: left;
-    background-color: rgb(48, 45, 45);
-    margin-right:10px;
-    padding: 5px;
-    min-height: 100px;
-}
-#ready .div2{
-    width: 240px;
-    float: left;
-    background-color: rgb(48, 45, 45);
-    margin-right:10px;
-    padding: 5px;
-    min-height: 100px;
-}
-#ready .div3{
-    width: 240px;
-    float: left;
-    background-color: rgb(48, 45, 45);
-    margin-right:10px;
-    padding: 5px;
-    min-height: 100px;
-}
-#ready .div4{
-    width: 240px;
-    float: left;
-    background-color: rgb(48, 45, 45);
-    margin-right:10px;
-    padding: 5px;
-    min-height: 100px;
 }
 /*
 admin page
@@ -146,22 +71,6 @@ admin page
 .admin{
     margin-top: 10px;
 }
-/*------------------------sign in-------------------*/
-#signin{
-    height: 80%;
-    margin-bottom: -20px;
-    background: url('img/food-and-drink.jpg');
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #222;
-}
-#signin .signin-form{
-    height: 300px;
-    width: 50%;
-    margin: auto;
-}
-
 /*--------------------------------------------------------------------------------------------------------*/
 #div1 {
     width: 190px;
@@ -249,17 +158,6 @@ admin page
     float: right;
     background: rgba(240, 130, 5, 0.247);
 }
-/*-----------------------------useraccount----------------------------------*/
-.itemActionUser{
-    margin-top: -20px;
-    float: right;
-}
-.itemActionUser button{
-    height: 80px;
-    margin-top: -40px;
-    float: right;
-    background: rgba(240, 130, 5, 0.247);
-}
 /*--------------------------------------------------------------------------------------------------------*/
 #div3 {
     width: 300px;
@@ -278,12 +176,3 @@ admin page
     margin-top: -22px;
 
 }
-/*------------------------aboutus sction*/
-#aboutus{
-    text-align: center;
-}
-/*-------------------------contact section*/
-#contact{
-    text-align: center;
-}
-

@@ -24,31 +24,10 @@ nav ul li a{
     color: bisque;
     text-decoration: none;
 }
-#main{
-    margin-top: 0;
-}
-.activity-search{
-    width: 100%;
-    background: #222;
-}
-.activity-form{
-    width: 80%;
-    border: 0px;
-    height: 40px;
-    padding: 10px;
-    float: left;
-}
-.activity-search-buton{
-    width: 20%;
-    border: 0px;
-    height: 40px;
-
-}
 footer{
-    margin-top: 10px;
-    clear: both;
     width: 100%;
     bottom: 0;
     height: 80px;
     background: rgb(89, 112, 141);
+    position: absolute;
 }
