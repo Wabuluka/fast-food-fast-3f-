@@ -192,19 +192,31 @@ admin page
 /*------------------------sign in-------------------*/
 #signin{
     height: 80%;
+    padding-top: 200px;
     margin-bottom: -20px;
     background: url('img/food-and-drink.jpg');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #222;
+    color: #fff;
 }
 #signin .signin-form{
     height: 300px;
-    width: 50%;
+    width: 40%;
     margin: auto;
 }
-
+#signin .signin-form a{
+    color: #fff;
+    padding-top: 5px;
+    text-align: right;
+}
+.form-group{
+    background: #222;
+    padding: 10px;
+}
+.form-sp{
+    background: #fff;
+}
 /*--------------------------------------------------------------------------------------------------------*/
 #div1 {
     width: 190px;
@@ -301,10 +313,7 @@ admin page
     height: 80px;
     margin-top: -40px;
     float: right;
-<<<<<<< HEAD
     width: 100px;
-=======
->>>>>>> master
     background: rgba(240, 130, 5, 0.247);
 }
 /*--------------------------------------------------------------------------------------------------------*/
@@ -332,9 +341,4 @@ admin page
 /*-------------------------contact section*/
 #contact{
     text-align: center;
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> master
