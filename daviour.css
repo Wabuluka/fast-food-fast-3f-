@@ -158,6 +158,31 @@ body{
     padding: 5px;
     min-height: 100px;
 }
+.one{
+    background: url('img/food-horoscopes-2018.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.two{
+    background: url('img/cake.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.three{
+    background: url('img/insect.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.four{
+    background: url('img/piza.jpeg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*
 admin page
 */
@@ -276,7 +301,10 @@ admin page
     height: 80px;
     margin-top: -40px;
     float: right;
+<<<<<<< HEAD
     width: 100px;
+=======
+>>>>>>> master
     background: rgba(240, 130, 5, 0.247);
 }
 /*--------------------------------------------------------------------------------------------------------*/
@@ -304,4 +332,9 @@ admin page
 /*-------------------------contact section*/
 #contact{
     text-align: center;
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> master
