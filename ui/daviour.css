@@ -45,6 +45,7 @@ body{
     width: 100%;
     border:0;
     background: #9e957ba6;
+    border-bottom: green dotted 1px;
 }
 .cont-sidebar{
     background: #222;
@@ -286,4 +287,6 @@ admin page
 #contact{
     text-align: center;
 }
-
+.submit-button{
+    background: green;
+}
