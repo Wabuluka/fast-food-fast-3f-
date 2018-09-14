@@ -84,10 +84,10 @@ def updateOrder(id):
     if not request.json:
         abort(400)
 
-    if 'orderTitle' in request.json and type(request.json['orderTitle']) != unicode:
+    if 'orderTitle' in request.json and type(request.json['orderTitle']) != str:
         abort(400)
 
-    if 'orderDescription' in request.json and type(request.json['orderDescription']) is not unicode:
+    if 'orderDescription' in request.json and type(request.json['orderDescription']) is not str:
         abort(400)
 
     order[0]['orderTitle'] = request.json.get('orderTitle', order[0]['orderTitle'])
